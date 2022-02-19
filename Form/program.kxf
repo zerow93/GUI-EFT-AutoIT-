@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="Program">
+	<properties>
+		<property name="Left" vt="Int16">224</property>
+		<property name="Top" vt="Int16">130</property>
+		<property name="Width" vt="Int16">770</property>
+		<property name="Height" vt="Int16">495</property>
+		<property name="Color" vt="Ident">clWhite</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clScrollBar</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Position" vt="Ident">poDesktopCenter</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TALabel" name="Scutere">
+			<properties>
+				<property name="Left" vt="Int8">48</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">SCUTERE</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Atv">
+			<properties>
+				<property name="Left" vt="Int8">48</property>
+				<property name="Top" vt="Int16">183</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">ATV-URI</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Biciclete">
+			<properties>
+				<property name="Left" vt="Int8">48</property>
+				<property name="Top" vt="Int16">135</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">BICICLETE</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Echipament">
+			<properties>
+				<property name="Left" vt="Int8">48</property>
+				<property name="Top" vt="Int16">279</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">ECHIPAMENT</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Piese">
+			<properties>
+				<property name="Left" vt="Int8">48</property>
+				<property name="Top" vt="Int16">231</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">PIESE</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAPic" name="Pic1">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">48</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="CtrlStyle" vt="Int32">1342309134</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="PicturePath" vt="String">C:\Users\anazerow\Desktop\Ana Proiect\Data\Pic\scooter2.gif</property>
+				<property name="TabOrder" vt="Int8">5</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+				<property name="Stretch" vt="Ident">sRealSize</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAPic" name="Pic2">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int16">135</property>
+				<property name="Width" vt="Int8">48</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="CtrlStyle" vt="Int32">1342309134</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="PicturePath" vt="String">C:\Users\anazerow\Desktop\Ana Proiect\Data\Pic\bicycle2.gif</property>
+				<property name="TabOrder" vt="Int8">6</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+				<property name="Stretch" vt="Ident">sRealSize</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAPic" name="Pic3">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int16">183</property>
+				<property name="Width" vt="Int8">48</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="CtrlStyle" vt="Int32">1342309134</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="PicturePath" vt="String">C:\Users\anazerow\Desktop\Ana Proiect\Data\Pic\atv2.gif</property>
+				<property name="TabOrder" vt="Int8">7</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+				<property name="Stretch" vt="Ident">sRealSize</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAPic" name="Pic4">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int16">231</property>
+				<property name="Width" vt="Int8">48</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="CtrlStyle" vt="Int32">1342309134</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="PicturePath" vt="String">C:\Users\anazerow\Desktop\Ana Proiect\Data\Pic\hammer2.gif</property>
+				<property name="TabOrder" vt="Int8">8</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+				<property name="Stretch" vt="Ident">sRealSize</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAPic" name="Pic5">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int16">279</property>
+				<property name="Width" vt="Int8">48</property>
+				<property name="Height" vt="Int8">48</property>
+				<property name="CtrlStyle" vt="Int32">1342309134</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="PicturePath" vt="String">C:\Users\anazerow\Desktop\Ana Proiect\Data\Pic\jacket2.gif</property>
+				<property name="TabOrder" vt="Int8">9</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+				<property name="Stretch" vt="Ident">sRealSize</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Iesire">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int16">399</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">IESIRE</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">10</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAList" name="Lista">
+			<properties>
+				<property name="Left" vt="Int16">534</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int16">217</property>
+				<property name="Height" vt="Int16">201</property>
+				<property name="Color" vt="Ident">clInactiveCaptionText</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-13</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ItemHeight" vt="Int8">15</property>
+				<property name="Items.Strings" vt="List">
+					<list>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String"/>
+						<li vt="String">                                           TOTAL: 0.00 Lei</li>
+					</list>
+				</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">11</property>
+				<property name="CtrlStyle" vt="Int32">1352859651</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr1">
+			<properties>
+				<property name="Left" vt="Int16">534</property>
+				<property name="Top" vt="Int16">291</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">1</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">12</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr2">
+			<properties>
+				<property name="Left" vt="Int16">576</property>
+				<property name="Top" vt="Int16">291</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">2</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">13</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr3">
+			<properties>
+				<property name="Left" vt="Int16">618</property>
+				<property name="Top" vt="Int16">291</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">3</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">14</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr4">
+			<properties>
+				<property name="Left" vt="Int16">534</property>
+				<property name="Top" vt="Int16">330</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">4</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">15</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr5">
+			<properties>
+				<property name="Left" vt="Int16">576</property>
+				<property name="Top" vt="Int16">330</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">5</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">16</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr6">
+			<properties>
+				<property name="Left" vt="Int16">618</property>
+				<property name="Top" vt="Int16">330</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">6</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">17</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr7">
+			<properties>
+				<property name="Left" vt="Int16">534</property>
+				<property name="Top" vt="Int16">369</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">7</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">18</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr8">
+			<properties>
+				<property name="Left" vt="Int16">576</property>
+				<property name="Top" vt="Int16">369</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">8</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">19</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr9">
+			<properties>
+				<property name="Left" vt="Int16">618</property>
+				<property name="Top" vt="Int16">369</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">9</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">20</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr0">
+			<properties>
+				<property name="Left" vt="Int16">534</property>
+				<property name="Top" vt="Int16">408</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">0</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">21</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="nr00">
+			<properties>
+				<property name="Left" vt="Int16">576</property>
+				<property name="Top" vt="Int16">408</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">00</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">22</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Punct">
+			<properties>
+				<property name="Left" vt="Int16">618</property>
+				<property name="Top" vt="Int16">408</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">.</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-27</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">23</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Sus">
+			<properties>
+				<property name="Left" vt="Int16">705</property>
+				<property name="Top" vt="Int16">291</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">^</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">24</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Jos">
+			<properties>
+				<property name="Left" vt="Int16">705</property>
+				<property name="Top" vt="Int16">330</property>
+				<property name="Width" vt="Int8">44</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">v</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-37</property>
+				<property name="Font.Name" vt="String">SketchFlow Print</property>
+				<property name="Font.Style" vt="Set">fsBold</property>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">25</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Card">
+			<properties>
+				<property name="Left" vt="Int16">660</property>
+				<property name="Top" vt="Int16">369</property>
+				<property name="Width" vt="Int8">89</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">Card</property>
+				<property name="Color" vt="Ident">clOlive</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">26</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Cash">
+			<properties>
+				<property name="Left" vt="Int16">660</property>
+				<property name="Top" vt="Int16">408</property>
+				<property name="Width" vt="Int8">89</property>
+				<property name="Height" vt="Int8">40</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">Cash</property>
+				<property name="Color" vt="Ident">clGreen</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">27</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Del">
+			<properties>
+				<property name="Left" vt="Int16">660</property>
+				<property name="Top" vt="Int16">291</property>
+				<property name="Width" vt="Int8">47</property>
+				<property name="Height" vt="Int8">79</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">DEL</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-24</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">28</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="item1">
+			<properties>
+				<property name="Left" vt="Int16">192</property>
+				<property name="Top" vt="Int16">177</property>
+				<property name="Width" vt="Int8">102</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">29</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="item2">
+			<properties>
+				<property name="Left" vt="Int16">294</property>
+				<property name="Top" vt="Int16">177</property>
+				<property name="Width" vt="Int8">102</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">30</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="item3">
+			<properties>
+				<property name="Left" vt="Int16">396</property>
+				<property name="Top" vt="Int16">177</property>
+				<property name="Width" vt="Int8">102</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">31</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="item4">
+			<properties>
+				<property name="Left" vt="Int16">192</property>
+				<property name="Top" vt="Int16">228</property>
+				<property name="Width" vt="Int8">102</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">32</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="item5">
+			<properties>
+				<property name="Left" vt="Int16">294</property>
+				<property name="Top" vt="Int16">228</property>
+				<property name="Width" vt="Int8">102</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">33</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="item6">
+			<properties>
+				<property name="Left" vt="Int16">396</property>
+				<property name="Top" vt="Int16">228</property>
+				<property name="Width" vt="Int8">102</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">34</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="cat1">
+			<properties>
+				<property name="Left" vt="Int16">156</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">75</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">35</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="cat2">
+			<properties>
+				<property name="Left" vt="Int16">231</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">75</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">36</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="cat3">
+			<properties>
+				<property name="Left" vt="Int16">306</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">75</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">37</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="cat4">
+			<properties>
+				<property name="Left" vt="Int16">381</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">75</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">38</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="cat5">
+			<properties>
+				<property name="Left" vt="Int16">456</property>
+				<property name="Top" vt="Int8">87</property>
+				<property name="Width" vt="Int8">75</property>
+				<property name="Height" vt="Int8">50</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clScrollBar</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">39</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TALabel" name="Stock">
+			<properties>
+				<property name="Left" vt="Int8">105</property>
+				<property name="Top" vt="Int16">399</property>
+				<property name="Width" vt="Int8">107</property>
+				<property name="Height" vt="Int8">49</property>
+				<property name="AutoSize" vt="False">False</property>
+				<property name="Caption" vt="String">STOCK</property>
+				<property name="Color" vt="Ident">clBlack</property>
+				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clMedGray</property>
+				<property name="Font.Height" vt="Int8">-21</property>
+				<property name="Font.Name" vt="String">Segoe Marker</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentColor" vt="False">False</property>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">40</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342309121</property>
+				<property name="CtrlExStyle" vt="Int32">131072</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAPic" name="FundalMOTO">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int8">-3</property>
+				<property name="Width" vt="Int16">748</property>
+				<property name="Height" vt="Int8">88</property>
+				<property name="CtrlStyle" vt="Int32">1342308622</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="PicturePath" vt="String">C:\Users\anazerow\Desktop\Ana Proiect\Data\Pic\moto.jpg</property>
+				<property name="TabOrder" vt="Int8">41</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+	</components>
+</object>
